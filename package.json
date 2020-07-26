@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor usado web sockets para continuar en el proceso de seleccion de handytec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://leningotru@bitbucket.org/leningotru/serverwebsockets.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Lenin Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "uuid": "^8.2.0",
+    "websocket": "^1.0.31"
+  }
+}
