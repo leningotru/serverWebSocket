@@ -1,6 +1,6 @@
 //declaracion de variables y paquetes necesarios
 var serverWebSocket = require("websocket").server;
-const portWebSocket = process.env.port || 5555;
+const portWebSocket = process.env.PORT || 5555;
 const http = require("http");
 const uuid = require("uuid");
 
